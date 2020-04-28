@@ -1,0 +1,20 @@
+{
+  "name": "@yunser/copy-path-cli",
+  "version": "0.0.1",
+  "description": "copy current path to clipboard",
+  "main": "index.js",
+  "author": "Yunser",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yunser/copy-path-cli"
+  },
+  "bin": {
+    "copy-path": "./index.js",
+    "cpath": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^4.1.1",
+    "moment": "^2.24.0"
+  }
+}
